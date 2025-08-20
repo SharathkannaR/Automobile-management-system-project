@@ -34,15 +34,7 @@ fault – Vehicle faults and repairs
 vehicle – Vehicle details (model, insurance, etc.)
 bill – Service billing details
 transaction – Payment and transaction history
-🏗 ER Diagram
-(Add your ER diagram image here, e.g. ![ER Diagram](er-diagram.png))
-📊 Example Tables
-Vehicle Table
-v_id	v_no	v_model	v_price	v_dom	c_id	sr_id	sc_id	v_insurance
-101	TN23AB1234	Honda City	1200000	2020-05-01	C01	SR01	SC01	Yes
-Bill Table
-b_no	b_date	b_amt	f_id	v_id	e_id	c_id	sc_id
-501	2023-07-15	3500	F01	101	E01	C01	SC01
+
 ⚙️ Tech Stack
 Database: MySQL
 Backend: PHP
